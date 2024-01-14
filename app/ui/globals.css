@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.bg-customGreyBlue {
+  background-color: #181c26;
+}
+
+.bg-customBlackBlue {
+  background-color: #0f121a;
+}
+
+.bg-customHeroPurple {
+  background-color: #496efd;
+}
+
+.text-customHeroPurple {
+  color: #496efd;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #496efd;
+  background-color: #0f121a;
+}
+
+.nav-link:active {
+  color: #496efd;
+  background-color: #0f121a;
+}
+
+.custom-btn {
+  color: #fff;
+}
+
+.custom-btn:hover {
+  color: #496efd;
+  background-color: #0f121a;
+}
+
+.note-tabs {
+  color: #94a3b8;
+}
+
+.note-tabs:hover {
+  color: #496efd;
+}
+
+.note-tabs:active {
+  color: #fff;
+}
