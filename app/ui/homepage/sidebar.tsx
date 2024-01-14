@@ -41,10 +41,12 @@ export default function Sidebar() {
                 <div className="hidden h-auto w-full grow rounded-md bg-transparent md:block"></div>
                 <hr />
                 <form>
-                    <button className="flex h-[48px] w-5/6 mx-auto grow custom-btn items-center justify-center gap-2 rounded-md bg-transparent p-3 text-sm font-medium md:flex-none md:justify-start md:p-8 md:px-3 md:my-4">
-                        <SettingsIcon sx={{ fontSize: 32 }} className="mx-1" />
-                        <div className="hidden md:block text-xl">Settings</div>
-                    </button>
+                    <Link href="/settings">
+                        <button className="flex h-[48px] w-5/6 mx-auto grow custom-btn items-center justify-center gap-2 rounded-md bg-transparent p-3 text-sm font-medium md:flex-none md:justify-start md:p-8 md:px-3 md:my-4">
+                            <SettingsIcon sx={{ fontSize: 32 }} className="mx-1" />
+                            <div className="hidden md:block text-xl">Settings</div>
+                        </button>
+                    </ Link>
                     <Link href="/login">
                         <button className="flex h-[48px] w-5/6 mx-auto grow custom-btn items-center justify-center gap-2 rounded-md bg-transparent p-3 text-sm font-medium hover:bg-customGreyBlue md:flex-none md:justify-start md:p-8 md:px-3 md:my-4 md:mt-6">
                             <ExitToAppIcon sx={{ fontSize: 32 }} className="mx-1" />
