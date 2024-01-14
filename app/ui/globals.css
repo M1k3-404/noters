@@ -76,3 +76,15 @@ body {
 .note-tabs:active {
   color: #fff;
 }
+
+.tab-key {
+  color: #fff;
+}
+
+.tab-key:hover {
+  color: #496efd;
+}
+
+.tab-key:active {
+  color: #fff;
+}

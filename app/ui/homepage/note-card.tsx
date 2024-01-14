@@ -15,7 +15,7 @@ export default function NoteCard({ topic, note, date, label, favourite} : { topi
     }
 
     return(
-        <div className="w-full flex flex-col shrink grow bg-customGreyBlue rounded-md px-6 pb-4">
+        <form className="w-full flex flex-col shrink grow bg-customGreyBlue rounded-md px-6 pb-4">
             <p className='mt-6 text-xl font-semibold'>{topic}</p>
 
             <p className='my-4'>
@@ -37,6 +37,6 @@ export default function NoteCard({ topic, note, date, label, favourite} : { topi
                     </button>
                 </div>
             </div>
-        </div>
+        </form>
     )
 }

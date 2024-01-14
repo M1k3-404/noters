@@ -8,7 +8,7 @@ import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 export default function Sidebar() {
     return (
-        <div className="flex h-full w-{360px} bg-midnight flex-col px-3 py-4 md:px-4">
+        <div className="flex h-full w-{360px} bg-customGreyBlue flex-col px-3 py-4 md:px-4">
             {/* Profile */}
             <Link 
                 className="mb-2 flex h-10 items-end justify-start rounded-md bg-transparent p-4 md:h-32"
